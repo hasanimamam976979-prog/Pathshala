@@ -1,0 +1,11 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "webboard",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "webboard",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
