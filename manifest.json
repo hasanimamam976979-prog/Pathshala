@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "पाठशाला",
+  "short_name": "Pathshala",
+  "description": "बच्चों के लिए हिंदी और अंग्रेज़ी में पढ़ाई और कहानियों का ऐप।",
+  "lang": "hi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#7448ee",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
