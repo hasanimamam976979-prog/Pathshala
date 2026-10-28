@@ -1,13 +1,13 @@
 {
-  "id": "/Pathshala/",
+  "id": "./",
   "name": "पाठशाला",
   "short_name": "Pathshala",
   "description": "बच्चों के लिए हिंदी और अंग्रेज़ी में पढ़ाई और कहानियों का ऐप।",
   "lang": "hi",
-  "start_url": "/Pathshala/",
-  "scope": "/Pathshala/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "orientation": "any",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#7448ee",
   "icons": [
@@ -16,35 +16,6 @@
       "sizes": "64x64",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
     }
-  ],
-  "screenshots": [
-    {
-      "src": "home.png",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Pathshala Home"
-    },
-    {
-      "src": "story.png",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Pathshala Story"
-    }
-  ],
-  "categories": [
-    "education"
   ]
 }
