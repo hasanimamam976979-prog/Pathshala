@@ -1,0 +1,35 @@
+/* Pathshala refreshed visual system: calm teal, ink and warm paper */
+:root{color-scheme:light;--ps-primary:#0f766e;--ps-primary-dark:#115e59;--ps-primary-soft:#e6f4f1;--ps-ink:#173b3a;--ps-muted:#647a78;--ps-paper:#f4f8f7;--ps-border:#d9e8e5;}
+html{background:var(--ps-paper);-webkit-tap-highlight-color:transparent;}
+body{background:var(--ps-paper);color:var(--ps-ink);}
+header{background:linear-gradient(145deg,#0f766e 0%,#115e59 100%);box-shadow:0 8px 24px #0f766e22;}
+.logo{box-shadow:0 8px 22px #063f3b38;}
+main{box-shadow:0 12px 34px #123f3b12;border:1px solid #e6efed;}
+.back,.listen,.two button,.gameMode button{background:var(--ps-primary-soft);color:var(--ps-primary-dark);}
+.nav button,.gameMode button.active{background:var(--ps-primary);color:#fff;}
+.answers button{background:#eaf4f2;color:#174e49;}
+.panel,.settingsBox,.v80-card{border-color:var(--ps-border);}
+input,select,textarea{border-color:#bfd6d1!important;}
+input:focus,select:focus,textarea:focus{border-color:var(--ps-primary)!important;box-shadow:0 0 0 3px #0f766e1c;outline:none;}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #0f766e!important;outline-offset:3px;}
+button{transition:filter .15s ease,transform .15s ease;}
+button:active{filter:brightness(.97);}
+@media(max-width:600px){
+  body{padding-left:0;padding-right:0;}
+  header{padding-top:calc(16px + env(safe-area-inset-top));border-radius:0 0 26px 26px;}
+  .logo{width:112px;height:112px;}
+  main{width:calc(100% - 16px);padding:14px 10px 26px;border-radius:22px;margin-bottom:18px;}
+  .grid{gap:9px;}
+  .card{min-height:126px;border-radius:19px;padding:12px 6px;}
+  .card .icon{font-size:36px;}
+  .card b{font-size:19px;}
+  .abcgrid{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .gameStats{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .bookPage{padding:18px 14px 18px 20px;}
+}
+@media(max-width:360px){
+  .grid,.two,.nav,.tableGrid{grid-template-columns:1fr;}
+  h1{font-size:25px;}
+  .card{min-height:108px;}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}}
